@@ -26,3 +26,27 @@ int max(int x, int y, int z);
  *
  */
 int toGrayScaleAverage(int r, int g, int b);
+
+// Prototype of function min(); 
+
+int min(int a,int b ,int c);
+
+// Prototype of function toGrayScaleLightness(); 
+
+float toGrayScaleLightness(int red, int green, int blue);
+
+// Prototype of function toGrayScaleLuminosity();
+
+float toGrayScaleLuminosity(int red,int green,int blue);
+
+// Prototype of toSepiaRed(); function 
+
+float toSepiaRed(int red,int green,int blue);
+
+// Prototype of toSepiaGreen(); function 
+
+float toSepiaGreen(int red,int green,int blue);
+
+// Prototype of toSepiaBlue(); function
+
+float toSepiaBlue(int red,int green,int blue);
